@@ -1,3 +1,56 @@
+div#page{
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+@import url(//fonts.googleapis.com/css?family=Raleway);
+@import url(//fonts.googleapis.com/css?family=Roboto+Slab);
+
+@font-face {
+	font-family: Raleway;
+	src: url('Raleway-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: Roboto Slab;
+	src: url('RalewaySlab.ttf') format('truetype');
+}
+
+h1{
+  text-align: center;
+  font-family: "Raleway";
+}
+
+header p{
+  text-align: center;
+  font-family: "Raleway";
+}
+
+nav{
+  text-align: center;
+  font-size: 115%;
+  font-family: "Raleway";
+}
+
+nav ul{
+  list-style: none;
+}
+
+nav ul li{
+  display: inline;
+  padding: 10px;
+}
+
+h2{
+  font-family: "Raleway";
+}
+
+h3{
+  font-family: "Raleway";
+}
+
 p{
-  color: green;
+  font-family: "Roboto Slab";
 }
