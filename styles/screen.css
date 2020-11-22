@@ -1,0 +1,125 @@
+div#page{
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+body{
+  background-color: white;
+}
+
+nav{
+  top: 0px;
+  width: 100%;
+  background-color: lightseagreen;
+  font-family: 'Raleway';
+  text-align: center;
+  padding: auto;
+}
+
+nav p{
+  font-size: 25px;
+  text-align: center
+}
+
+nav a{
+  color: black;
+  font-size: 25px;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  color: darkslategray;
+}
+
+nav a:hover{
+  text-decoration: none;
+  background-color: lightseagreen;
+  color: black;
+}
+
+nav ul{
+  list-style: none;
+  padding: 10px;
+}
+
+nav ul li{
+  display: inline;
+  padding: 10px;
+}
+
+
+#bio{
+
+}
+
+#bio img{
+  width: 15%;
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#bio h2{
+
+  font-family: 'Raleway';
+  text-align: center;
+}
+
+#bio p {
+  font-family: 'Roboto Slab', serif;
+  padding-top: 0px;
+  padding-left: : 10px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+}
+
+h1{
+  font-family: 'Raleway';
+  font-size: 60px;
+  font-weight: bold;
+}
+
+h2{
+  font-family: 'Raleway';
+}
+
+h3{
+  font-family: 'Raleway';
+  font-size: 110%;
+}
+
+#education ul li{
+  font-family: 'Roboto Slab', serif;
+}
+
+#education p{
+  font-family: 'Roboto Slab', serif;
+  font-style: italic;
+}
+
+#work_experience ul li{
+  font-family: 'Roboto Slab', serif;
+}
+
+#work_experience p{
+  font-family: 'Roboto Slab', serif;
+  font-style: italic;
+}
+
+#extracurricular_activities ul li{
+  font-family: 'Roboto Slab', serif;
+}
+
+#extracurricular_activities p{
+  font-family: 'Roboto Slab', serif;
+  font-style: italic;
+}
+
+#awards ul li{
+  font-family: 'Roboto Slab', serif;
+}
+
+#download_pdf{
+  font-family: 'Roboto-Slab', serif;
+}
